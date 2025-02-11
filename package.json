@@ -1,6 +1,6 @@
 {
   "name": "@threls/eslint-config",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "index.js",
   "repository": {
     "type": "git",
@@ -13,7 +13,7 @@
   },
   "homepage": "https://github.com/threls/eslint-config#readme",
   "description": "",
-  "devDependencies": {
+  "dependencies": {
     "@typescript-eslint/eslint-plugin": "^8.24.0",
     "@typescript-eslint/parser": "^8.24.0",
     "eslint-config-prettier": "^10.0.1",
@@ -30,6 +30,5 @@
   "peerDependencies": {
     "eslint": "^9.20.0",
     "prettier": "^3.5.0"
-  },
-  "private": "false"
+  }
 }
